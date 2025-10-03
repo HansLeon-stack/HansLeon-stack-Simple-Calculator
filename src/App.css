@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  background-color: rgb(7, 0, 0);
+  overflow: hidden;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  padding: 16px;
+  position: relative;
+  font-size: 50px;
+  font-weight: 300;
+  background-color: #3a3a3a;
+  color: rgb(255, 255, 255);
+}
+
+.Row {
+  display: flex;
+}
+
+.Row button {
+  appearance: none;
+  border: none;
+  outline: none;
+  color: white;
+  width: 60px;
+  height: 60px;
+  margin-right: 13px;
+  margin-left: 13px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color: grey;
+  font-size: 22px;
+
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 50%;
+  flex: 1 1 0%;
+}
+
+.RowBottom {
+  display: flex;
+}
+.RowBottom button {
+  appearance: none;
+  border: none;
+  outline: none;
+  color: white;
+  margin-right: 13px;
+  margin-left: 13px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: grey;
+  font-size: 24px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 30px;
+  flex: 1 1 0%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.Orange {
+  background-color: orange;
+}
+
+button.Brown {
+  background-color: rgb(141, 96, 44);
+}
+
+.history {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  padding: 5px;
+  max-height: 100px;
+  overflow-y: auto;
+  border-radius: 5px;
+  font-size: 14px;
+  scrollbar-width: none;
+}
+.current-calc {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
