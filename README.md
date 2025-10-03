@@ -34,7 +34,7 @@ cd HansLeon-stack-Simple-Calculator
 npm install
 ```
 
-6. Start the development server:
+5. Start the development server:
 ```
 npm start
 ```
