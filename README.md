@@ -17,7 +17,7 @@ A basic calculator application built with React, designed to perform standard ca
 - JavaScript (ES6+)
 - CSS
 
-## 🛠️Installation
+## Installation
 
 1. Clone the repository:
 ```
